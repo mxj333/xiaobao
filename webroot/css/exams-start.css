@@ -1,0 +1,20 @@
+
+.radio label, .checkbox label {
+    width: 100%;
+    position: relative;
+}
+.radio {
+    position: relative;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    left: 5px;
+    margin-left: 0;
+}
+
+.radio label, .checkbox label {
+    padding-left: 25px;
+}
+
+.modal-dialog {
+    margin: 200px auto;
+}

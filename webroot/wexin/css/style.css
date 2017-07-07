@@ -1,0 +1,58 @@
+body {
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.page {
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+    /*position: absolute;*/
+    right: 0;
+    top: 0;
+}
+.container {
+    /*overflow: hidden;*/
+}
+
+
+/*.page__bd{
+    z-index: 1030;
+    border-width: 1px 0 0;
+    bottom: 0;
+    margin-bottom: 0;
+}*/
+.dibu{margin-top:10px;position:fixed;bottom: 0;left: 0; width: 100%;}
+/*.weui-grid{
+    height: 80px;
+}*/
+.site-dt {
+    color: #e00235;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 100%;
+    margin: 0;
+    padding: 2px 10px;
+}
+.placeholder{
+    margin: 2px;
+}
+.pro-name p:nth-of-type(2) {
+    -moz-box-orient: vertical;
+    color: #787878;
+    display: -webkit-box;
+    font-size: 12px;
+    height: 36px;
+    line-height: 18px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    word-break: break-all;
+}
+.weui-flex__item img, .ads img{
+    width: 100%;
+}
+.ads{
+     margin-bottom: 46px;
+     padding:1px;
+}
